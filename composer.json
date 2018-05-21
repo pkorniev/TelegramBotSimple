@@ -1,0 +1,22 @@
+{
+    "name": "pkorniev/yii2-telegram-bot-simple",
+    "description": "Simple Telegram bot extension for Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","telegram","bot","webhooks"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavlo Korniev",
+            "email": "pkorniev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-httpclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pkorniev\\TelegramBotSimple\\": "src"
+        }
+    }
+}
